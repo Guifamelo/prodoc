@@ -1,0 +1,29 @@
+@import './custom_colors';
+
+.home-screen{
+    background-color:$custom-purple-darker;
+    height: calc(100% - 70px);
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.home{
+    background-color:$custom-purple;
+    height: calc(100% - 70px);
+}
+.coluna-1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: aqua;
+}
+.texto-1{
+    max-width: 70%;
+    padding: 10px;
+}
+.img-sistema{
+    max-width: 70%;
+    padding: 10px;
+}
